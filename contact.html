@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="applicable-device" content="pc,mobile">
+  <title>联系我们 | 辛佳教育 · 免费留学咨询</title>
+  <meta name="description" content="联系辛佳教育，预约免费日本留学咨询。通过微信、在线表单或公众号与我们取得联系，获取个性化的留学申请方案。">
+  <meta name="keywords" content="联系辛佳教育,日本留学咨询,免费留学评估,留学咨询预约">
+  <link rel="alternate" hreflang="zh" href="https://www.shinka-edu.com/contact.html">
+  <link rel="alternate" hreflang="en" href="https://www.shinka-edu.com/en/contact.html">
+  <link rel="canonical" href="https://www.shinka-edu.com/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="主导航">
+    <div class="container">
+      <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="辛佳教育" loading="lazy"><span class="nav-logo-text">辛佳教育<small>Shinka Education</small></span></a>
+      <div class="nav-links">
+        <a href="index.html">首页</a>
+        <a href="services.html">服务</a>
+        <a href="cases.html">案例</a>
+        <a href="team.html">团队</a>
+        <a href="blog.html">资讯</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="active">联系我们</a>
+        <a href="en/contact.html" class="nav-lang">EN</a>
+        <a href="contact.html" class="nav-cta">免费咨询</a>
+      </div>
+      <button class="nav-toggle" aria-label="菜单"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <header class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">首页</a><span>/</span>联系我们</div>
+      <h1>联系我们</h1>
+      <p>无论你处于留学规划的哪个阶段，我们都乐意为你提供帮助</p>
+    </div>
+  </header>
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Form -->
+        <div class="contact-form fade-in">
+          <h3 style="margin-bottom: 24px;">在线咨询表</h3>
+          <form action="#" method="POST" onsubmit="return handleSubmit(event)">
+            <div class="form-group">
+              <label for="name">姓名 *</label>
+              <input type="text" id="name" name="name" required placeholder="请输入你的姓名">
+            </div>
+            <div class="form-group">
+              <label for="email">邮箱 *</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">手机号码</label>
+              <input type="tel" id="phone" name="phone" placeholder="（选填）方便我们电话联系">
+            </div>
+            <div class="form-group">
+              <label for="intention">留学意向 *</label>
+              <select id="intention" name="intention" required>
+                <option value="" disabled selected>请选择你感兴趣的服务</option>
+                <option value="sgu">SGU 英语项目申请</option>
+                <option value="kenkyusei">研究生（内诺制）申请</option>
+                <option value="chokuju">大学院直考</option>
+                <option value="multi">多国混申</option>
+                <option value="other">其他 / 不确定</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">留言</label>
+              <textarea id="message" name="message" placeholder="简单介绍一下你的背景和留学目标，方便我们提前了解你的情况"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">提交咨询</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info fade-in fade-in-delay-1">
+          <h3>其他联系方式</h3>
+          <div class="contact-channels">
+            <div class="contact-channel-item">
+              <div class="channel-icon">&#128172;</div>
+              <div class="channel-info">
+                <h4>微信咨询</h4>
+                <p>添加微信，一对一沟通你的留学需求</p>
+                <img src="images/wechat-qr.jpg" alt="辛佳教育微信二维码" style="width: 180px; height: 180px; border-radius: 8px; margin-top: 12px;">
+              </div>
+            </div>
+            <div class="contact-channel-item">
+              <div class="channel-icon">&#128240;</div>
+              <div class="channel-info">
+                <h4>微信公众号</h4>
+                <p>关注「辛佳日本升学」获取最新资讯</p>
+                <div class="qrcode-placeholder">公众号二维码<br>（待添加）</div>
+              </div>
+            </div>
+            <div class="contact-channel-item">
+              <div class="channel-icon">&#128214;</div>
+              <div class="channel-info">
+                <h4>小红书</h4>
+                <p>关注我们的小红书账号，获取留学干货</p>
+              </div>
+            </div>
+            <div class="contact-channel-item">
+              <div class="channel-icon">&#9993;</div>
+              <div class="channel-info">
+                <h4>邮箱</h4>
+                <p>info@shinka-edu.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: var(--color-bg-warm); padding: 24px; border-radius: var(--radius-lg); margin-top: 24px;">
+            <h4 style="font-size: 0.95rem; margin-bottom: 8px;">咨询须知</h4>
+            <p style="font-size: 0.85rem; color: var(--color-text-light); line-height: 1.7;">
+              首次咨询完全免费，我们会在 24 小时内回复你的咨询。为了更好地帮助你，建议在留言中说明你的本科学校、专业、GPA、语言成绩和目标学校/专业方向。
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><h3>辛佳教育</h3><p>深耕日本高端留学，以专业和真诚陪伴每一位学生走向理想的学府。</p></div>
+        <div class="footer-col"><h4>服务</h4><a href="services.html#sgu">SGU 英语项目</a><a href="services.html#kenkyusei">研究生申请</a><a href="services.html#chokuju">大学院直考</a><a href="services.html#multi">多国混申</a></div>
+        <div class="footer-col"><h4>了解更多</h4><a href="cases.html">成功案例</a><a href="team.html">团队介绍</a><a href="blog.html">博客资讯</a><a href="faq.html">常见问题</a></div>
+        <div class="footer-col"><h4>联系我们</h4><a href="contact.html">在线咨询</a><a href="contact.html">小红书：辛佳日本留学</a><a href="contact.html">公众号：辛佳留学</a></div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 辛佳教育 Shinka Education. All rights reserved.</span>
+        <a href="en/contact.html">English</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      alert('感谢你的咨询！我们会在 24 小时内与你联系。\n\n（提示：表单提交功能需要在部署后配置后端服务或第三方表单服务）');
+      return false;
+    }
+  </script>
+</body>
+</html>
