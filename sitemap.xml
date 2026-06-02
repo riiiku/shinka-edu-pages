@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.shinka-edu.com/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.shinka-edu.com/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinka-edu.com/" />
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -29,34 +29,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.shinka-edu.com/blog.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.shinka-edu.com/blog.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinka-edu.com/en/blog.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinka-edu.com/blog.html" />
+    <loc>https://www.shinka-edu.com/insights.html</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shinka-edu.com/articles/multi-country-application.html</loc>
+    <loc>https://www.shinka-edu.com/insights/multi-country-application.html</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.shinka-edu.com/articles/ai-era-study-abroad.html</loc>
+    <loc>https://www.shinka-edu.com/insights/ai-era-study-abroad.html</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.shinka-edu.com/articles/ai-era-japanese.html</loc>
+    <loc>https://www.shinka-edu.com/insights/ai-era-japanese.html</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.shinka-edu.com/articles/case-reference-method.html</loc>
+    <loc>https://www.shinka-edu.com/insights/case-reference-method.html</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -104,15 +101,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinka-edu.com/team.html" />
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.shinka-edu.com/en/blog.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.shinka-edu.com/blog.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinka-edu.com/en/blog.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinka-edu.com/blog.html" />
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
