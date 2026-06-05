@@ -839,6 +839,12 @@ h3 {
   overflow-x: hidden;
 }
 
+.article-hero,
+.article-main {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .article-body h2 {
   margin: 44px 0 16px;
   color: var(--navy-dark);
@@ -1167,6 +1173,77 @@ h3 {
 
 .method {
   background: var(--beige);
+}
+
+.operating-system {
+  background: linear-gradient(180deg, #fffdf9, #f6efe4);
+}
+
+.system-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 42px;
+}
+
+.system-grid article {
+  min-height: 280px;
+  padding: 28px;
+  border: 1px solid rgba(227, 214, 200, 0.94);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 16px 42px rgba(13, 53, 87, 0.06);
+}
+
+.system-grid span {
+  color: var(--orange);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.system-grid h3 {
+  margin-top: 16px;
+  font-size: 22px;
+}
+
+.system-grid p {
+  margin-bottom: 0;
+  color: #526174;
+}
+
+.system-flow {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+  padding: 14px;
+  border: 1px solid rgba(13, 53, 87, 0.08);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.system-flow div {
+  padding: 18px;
+  border-radius: 16px;
+  background: var(--cream);
+}
+
+.system-flow strong,
+.system-flow span {
+  display: block;
+}
+
+.system-flow strong {
+  color: var(--navy-dark);
+  font-size: 16px;
+}
+
+.system-flow span {
+  margin-top: 8px;
+  color: #5b6b7c;
+  font-size: 13px;
+  line-height: 1.55;
 }
 
 .testimonials {
@@ -1547,6 +1624,8 @@ h3 {
   .insight-grid,
   .service-grid,
   .pathway-grid,
+  .system-grid,
+  .system-flow,
   .mentor-categories,
   .testimonial-grid,
   .testimonial-image-grid,
@@ -1630,6 +1709,8 @@ h3 {
   .insight-grid,
   .service-grid,
   .pathway-grid,
+  .system-grid,
+  .system-flow,
   .mentor-categories,
   .testimonial-grid,
   .testimonial-image-grid,
@@ -1674,16 +1755,30 @@ h3 {
 
   .insights-page-hero h1,
   .article-hero h1 {
-    font-size: 29px;
+    font-size: 27px;
+    line-height: 1.32;
     line-break: anywhere;
     word-break: break-all;
+  }
+
+  .article-hero .container,
+  .article-shell,
+  .article-main,
+  .article-body {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .article-lead,
   .article-body p,
   .article-body li {
-    word-break: break-word;
+    word-break: normal;
     overflow-wrap: anywhere;
+  }
+
+  .article-lead {
+    font-size: 17px;
+    line-height: 1.85;
   }
 
   .article-meta {
