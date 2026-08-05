@@ -1702,6 +1702,69 @@ h3 {
   min-height: 290px;
 }
 
+.identity-section {
+  background: #fff;
+}
+
+.identity-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 72px;
+  align-items: start;
+}
+
+.identity-statement > p:not(.section-label) {
+  margin-top: 24px;
+  color: #526174;
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.identity-statement blockquote,
+.philosophy-copy blockquote {
+  margin: 30px 0 0;
+  padding: 22px 24px;
+  border-left: 4px solid var(--orange);
+  background: var(--beige);
+  color: var(--navy-dark);
+  font-family: "Noto Serif SC", serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.value-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.value-grid article {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 3px 18px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--paper);
+}
+
+.value-grid article > span {
+  grid-row: 1 / 3;
+  color: var(--orange);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.value-grid h3,
+.value-grid p {
+  margin: 0;
+}
+
+.value-grid p {
+  margin-top: 7px;
+  color: #58687a;
+}
+
 .fit-section {
   background: var(--beige);
 }
@@ -1745,6 +1808,128 @@ h3 {
 
 .fit-card li + li {
   margin-top: 12px;
+}
+
+.team-preview {
+  background: var(--paper);
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.expertise-grid article {
+  min-height: 280px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 14px 36px rgba(13, 53, 87, 0.05);
+}
+
+.expertise-grid article > span {
+  color: var(--orange);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.expertise-grid h3 {
+  margin-top: 32px;
+}
+
+.expertise-grid p {
+  color: #58687a;
+}
+
+.team-preview-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.team-preview-footer p {
+  margin: 0;
+  color: #657487;
+  font-size: 14px;
+}
+
+.team-philosophy {
+  background: #fff;
+}
+
+.philosophy-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  gap: 72px;
+  align-items: start;
+}
+
+.philosophy-copy > p {
+  margin: 0;
+  color: #526174;
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.philosophy-copy > p + p {
+  margin-top: 18px;
+}
+
+.expertise-section {
+  background: var(--beige);
+}
+
+.team-disclosure {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 28px;
+  margin-top: 28px;
+  padding: 24px 28px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.team-disclosure strong {
+  color: var(--navy-dark);
+}
+
+.team-disclosure p {
+  margin: 0;
+  color: #5c6b7c;
+}
+
+.founder-note {
+  color: #fff;
+  background: linear-gradient(135deg, #071f35, #0d3557);
+}
+
+.founder-note-inner {
+  max-width: 900px;
+}
+
+.founder-note .section-label {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.founder-note blockquote {
+  margin: 24px 0;
+  color: #fff;
+  font-family: "Noto Serif SC", serif;
+  font-size: clamp(24px, 3vw, 38px);
+  line-height: 1.65;
+}
+
+.founder-note-inner > p:last-child {
+  color: rgba(255, 255, 255, 0.66);
 }
 
 .journey-grid {
@@ -1930,7 +2115,9 @@ h3 {
   .home-hero .hero-grid,
   .section-intro,
   .fit-grid,
-  .proof-layout {
+  .proof-layout,
+  .identity-layout,
+  .philosophy-layout {
     grid-template-columns: 1fr;
     gap: 34px;
   }
@@ -1946,8 +2133,13 @@ h3 {
   .home-service-grid,
   .home-insight-grid,
   .journey-grid,
-  .service-grid {
+  .service-grid,
+  .expertise-grid {
     grid-template-columns: 1fr;
+  }
+
+  .expertise-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .home-service-grid .service-card,
@@ -2143,6 +2335,16 @@ h3 {
   .fit-cards,
   .home-contact {
     grid-template-columns: 1fr;
+  }
+
+  .expertise-grid,
+  .team-disclosure {
+    grid-template-columns: 1fr;
+  }
+
+  .team-preview-footer {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .fit-card {
