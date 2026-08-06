@@ -1887,6 +1887,59 @@ h3 {
   background: var(--beige);
 }
 
+.mentor-directory {
+  display: grid;
+  gap: 54px;
+  margin-top: 58px;
+}
+
+.mentor-group + .mentor-group {
+  padding-top: 48px;
+  border-top: 1px solid var(--line);
+}
+
+.mentor-group-head {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+  gap: 8px 40px;
+  align-items: end;
+}
+
+.mentor-group-head > span {
+  grid-column: 1 / -1;
+  color: var(--orange);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mentor-group-head h3,
+.mentor-group-head p {
+  margin: 0;
+}
+
+.mentor-group-head p {
+  color: #5c6b7c;
+}
+
+.mentor-directory .mentor-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 24px;
+}
+
+.mentor-directory .mentor-card {
+  min-height: 132px;
+}
+
+.mentor-directory .mentor-card:nth-child(3n + 2) .avatar {
+  background: var(--orange);
+}
+
+.mentor-directory .mentor-card:nth-child(3n) .avatar {
+  background: var(--green);
+}
+
 .team-disclosure {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
@@ -2142,6 +2195,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .mentor-directory .mentor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .home-service-grid .service-card,
   .home-insight-grid .insight-card,
   .journey-grid article {
@@ -2338,7 +2395,9 @@ h3 {
   }
 
   .expertise-grid,
-  .team-disclosure {
+  .team-disclosure,
+  .mentor-directory .mentor-grid,
+  .mentor-group-head {
     grid-template-columns: 1fr;
   }
 
